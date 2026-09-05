@@ -1,44 +1,23 @@
 # Web Development
 
-A structured collection of my Web Development coursework, including lecture materials, class notes, practical resources, and academic assignments.
+A collection of Web Development lecture materials covered throughout my academic coursework.
 
 ## About
 
-This repository serves as a centralized academic archive for my Web Development course. It contains the concepts covered during lectures along with assignments completed as part of the coursework.
+This repository is maintained as a centralized archive of my Web Development lectures, providing an organized reference for the concepts and topics covered during the course.
 
-The purpose is to keep all learning materials organized and easily accessible for revision and future reference.
+It is intended to make the lecture material easy to access, review, and revisit whenever needed.
 
-## Contents
+## Topics Covered
 
-- Lecture Materials
-- Class Notes
-- Practical Examples
-- Assignments
-- Coursework Resources
-
-## Technologies
-
-The coursework primarily covers:
+The lectures cover various concepts and technologies related to Web Development, including:
 
 - HTML
 - CSS
 - JavaScript
 - Web Development Fundamentals
-- Other technologies and concepts introduced throughout the course
-
-## Purpose
-
-This repository is maintained to:
-
-- Keep all lecture materials in one place
-- Document academic learning and coursework
-- Store completed assignments
-- Provide a useful reference for revision
-- Track my progress throughout the course
-
-## Academic Work
-
-All content in this repository is maintained for educational and academic purposes as part of my Web Development coursework.
+- Frontend Development Concepts
+- Other topics covered throughout the course
 
 ---
 
