@@ -1,26 +1,33 @@
 # Web Development
 
-A collection of Web Development lecture materials covered throughout my academic coursework.
+A structured collection of Web Development lecture materials covered throughout my academic coursework.
 
 ## About
 
-This repository is maintained as a centralized archive of my Web Development lectures, providing an organized reference for the concepts and topics covered during the course.
+Welcome to my Web Development learning space — a growing collection of lecture materials, concepts, and resources from my academic journey in web development.
 
-It is intended to make the lecture material easy to access, review, and revisit whenever needed.
+This repository brings together the topics covered throughout the course, from the fundamentals of **HTML and CSS** to **JavaScript and frontend development concepts**. It provides a simple and organized space to revisit what I have learned, strengthen my understanding, and continuously build my web development skills.
+
+Rather than being just a collection of lectures, this repository represents my ongoing journey of **learning, experimenting, and building a strong foundation in Web Development**.
 
 ## Topics Covered
 
-The lectures cover various concepts and technologies related to Web Development, including:
+* HTML
+* CSS
+* JavaScript
+* Web Development Fundamentals
+* Frontend Development
+* Client-Side Concepts
+* Other concepts covered throughout the course
 
-- HTML
-- CSS
-- JavaScript
-- Web Development Fundamentals
-- Frontend Development Concepts
-- Other topics covered throughout the course
+## Purpose
+
+This repository is maintained as a personal academic reference for revising concepts, revisiting lecture material, and strengthening my understanding of Web Development throughout my coursework.
+
+**Learn. Build. Improve. Repeat.**
 
 ---
 
-**Maintained by Aradhana**  
+**Maintained by Aradhana**
 *B.Tech CSE*
-*2501010358*
+*Student ID: 2501010358*
