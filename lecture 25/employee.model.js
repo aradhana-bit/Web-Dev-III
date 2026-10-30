@@ -4,11 +4,22 @@ const Schema = mongoose.Schema;
 const employeeSchema = new Schema({
     empId: {
         type: Number,
-        required: true
+        required: true,
+        unique:true,
+        validate:{
+            validator:function(value){
+                return value>100;
+            }
+        }
     },
     Name: {
         type: String,
-        required: true
+        required: true,
+        // validate:{
+        //     validator:function(value){
+        //         return value.endsWith("@krmu.edu.in")
+        //     }
+        // }
     },
     salary: {
         type: Number,
@@ -16,15 +27,19 @@ const employeeSchema = new Schema({
     },
     department:{
         type: String,
-        required: true
+        required: true,
+        enum:["HR","IT","Finance","Sales"]
     },
     contact:{
         type: Number,
-        required: true
+        required: true,
+        minLength:10,
+        maxLength:10
     },
     age:{
         type: Number,
-        required: true
+        required: true,
+        min:18
     },
     location:{
         type: String,
