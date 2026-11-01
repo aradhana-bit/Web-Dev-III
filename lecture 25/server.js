@@ -3,7 +3,6 @@ const mongoose = require('mongoose');
 const Employee=require("./model/employee.model.js")
 const app = express();
 const port = 3000;
-
 app.use(express.json())
 //Read Operation
 app.get("/api/employees", async (req, res) => {
@@ -14,7 +13,6 @@ app.get("/api/employees", async (req, res) => {
         res.status(500).json({ success: false, message: error.message });
     }
 })
-
 //get employee by thier id
 app.get("/api/employees/:id", async (req, res) => {
     const id = req.params.id;
@@ -28,7 +26,6 @@ app.get("/api/employees/:id", async (req, res) => {
         res.status(500).json({ success: false, message: error.message });
     }
 })
-
 app.post("/api/employees", async (req, res) => {
     console.log(req.body)
     try {
@@ -39,7 +36,6 @@ app.post("/api/employees", async (req, res) => {
         res.status(500).json({ success: false, message: error.message });
     }
 })
-
 app.put("/api/employees/:id", async (req, res) => {
     const id = req.params.id;
     try {
@@ -52,7 +48,6 @@ app.put("/api/employees/:id", async (req, res) => {
         res.status(500).json({ success: false, message: error.message });
     }
 });
-
 app.delete("/api/employees/:id", async (req, res) => {
     const id = req.params.id;
     try {
@@ -65,10 +60,6 @@ app.delete("/api/employees/:id", async (req, res) => {
         res.status(500).json({ success: false, message: error.message });
     }
 });
-
-
-
-
 mongoose.connect("mongodb://localhost:27017/GoogleDB").then(()=>{
     console.log("Database Connected");
 }).catch((err)=>{
