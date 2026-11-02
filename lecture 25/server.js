@@ -26,6 +26,7 @@ app.get("/api/employees/:id", async (req, res) => {
         res.status(500).json({ success: false, message: error.message });
     }
 })
+
 app.post("/api/employees", async (req, res) => {
     console.log(req.body)
     try {
